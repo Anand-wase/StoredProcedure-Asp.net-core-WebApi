@@ -90,6 +90,7 @@ namespace StoredProcedure.Controllers
             return msg;
         }
         [HttpDelete("{id}")]
+        //Delete
         public string DeleteEmployee(int id)
         {
             Employee emp=new Employee();
