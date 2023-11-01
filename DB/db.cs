@@ -42,7 +42,6 @@ namespace StoredProcedure.DB
             }
             return msg;
         }
-        
         public DataSet EmployeeGet(Employee emp,out string msg)
         {
             msg = string.Empty;

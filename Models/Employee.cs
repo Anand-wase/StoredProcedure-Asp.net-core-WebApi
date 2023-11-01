@@ -12,6 +12,6 @@ namespace StoredProcedure.Models
         public string Name { get; set; }=" ";
         public string Designation { get; set; }=" ";
         public string Email { get; set; }=" ";
-        public String Type { get; set; }=" ";
+        public String? Type { get; set; }=" ";
     }
 }
